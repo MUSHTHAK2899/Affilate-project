@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .tr {
+      @apply p-2 font-semibold text-black/70 cursor-pointer border-b flex items-center gap-3 tracking-widest;
+    }
+    .th{
+      @apply text-[14px] cursor-pointer text-gray-100/50
+    }
+}
