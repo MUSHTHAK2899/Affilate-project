@@ -52,7 +52,7 @@ const Hero = () => {
            </div>
         </div>
     </div>
-        <div className="md:w-[400px] lg:w-[500px] xl:w-[800px] whitespace-nowrap mt-5 md:mt-0">
+        <div className="md:w-[400px]  lg:w-[500px] xl:w-[800px] whitespace-nowrap mt-5 md:mt-0">
         <Swiper
         spaceBetween={30}
         autoplay={{

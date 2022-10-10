@@ -9,4 +9,7 @@
     .th{
       @apply text-[14px] cursor-pointer text-gray-100/50
     }
+    .mh{
+      @apply border-b  pb-2 text-[16px] text-gray-600 tracking-wider hover:translate-x-1 duration-300 cursor-pointer
+    }
 }

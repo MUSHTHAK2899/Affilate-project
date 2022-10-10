@@ -1,16 +1,23 @@
-import React from "react";
-import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
+import React, { useState } from "react";
+import { AiOutlineInstagram, AiOutlineTwitter ,AiOutlineClose} from "react-icons/ai";
 import { FaFacebookF  } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { BsHandbag } from "react-icons/bs";
 import { HiOutlinePhoneMissedCall } from "react-icons/hi";
 import { BiMenuAltLeft, BiSearchAlt, BiUser } from "react-icons/bi";
 import NavBar2 from "./NavBar2";
+import Menu from "./Menu";
 
 const NavBar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="bg-[#08ce] max-w-full h-[150px]">
+    <div className={
+              (navbarOpen ? " flex" : " hidden")
+            }>
+      <Menu/>
+      </div>
+      <nav className="bg-gradient-to-r from-cyan-500 to-blue-500 max-w-full h-[150px]">
         <div className="flex justify-between lg:justify-around lg:gap-28 p-4 md:p-5 ">
           <h1 className="text-white md:whitespace-nowrap text-[10px] md:text-[12px] flex items-center font-semibold">
             FREE RETURNS. STANDARD SHIPPING ORDERS $99+
@@ -59,7 +66,9 @@ const NavBar = () => {
 
         <div className="p-5 flex justify-between lg:justify-around items-center">
           <div className="flex items-center gap-2">
-            <BiMenuAltLeft size={30} className="text-white flex md:hidden" />
+         <div onClick={() => setNavbarOpen(!navbarOpen)} className="text-white flex md:hidden">
+      {   navbarOpen?<AiOutlineClose  size={30} />:  <BiMenuAltLeft   size={30}  />}
+         </div>
             <h1 className="font-bold text-white text-xl font-serif italic">
               eCommerCe
             </h1>

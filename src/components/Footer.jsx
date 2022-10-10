@@ -6,7 +6,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#121214] max-w-full max-h-full] ">
+      <div className=" bg-gradient-to-r from-[#121214] to-slate-800  max-w-full max-h-full] ">
         <h1 className="text-white bg-[#08c] w-32 text-center font-mono rounded-t-md -translate-y-4 ml-7 p-2">
           Get in touch
         </h1>

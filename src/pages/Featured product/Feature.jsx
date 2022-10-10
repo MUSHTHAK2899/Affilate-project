@@ -53,7 +53,7 @@ const Feature = () => {
                           {" "}
                           <BsHandbag size={20} />
                         </div>
-                        <button className="group-hover:bg-[#08c] cursor-pointer text-transparent tracking-wider xl:group-hover:shadow-md group-hover:text-white group-hover:font-semibold group-hover:translate-y-1 absolute hidden xl:flex group-hover:duration-500  xl:top-[233px] xl:px-[88px] py-2">
+                        <button className="group-hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer text-transparent tracking-wider xl:group-hover:shadow-md group-hover:text-white group-hover:font-semibold group-hover:translate-y-1 absolute hidden xl:flex group-hover:duration-500  xl:top-[233px] xl:px-[88px] py-2">
                           QUICKVIEW
                         </button>
                       </div>
@@ -62,7 +62,7 @@ const Feature = () => {
                         <span>{items.icon}</span>
                       </div>
                       <p>{items.Price}</p>
-                      <button className="flex xl:hidden bg-[#08c] group-hover:bg-sky-500 text-white tracking-wider duration-300 group-hover:translate-x-5 font-semibold cursor-pointer px-10 py-2">
+                      <button className="flex xl:hidden bg-gradient-to-r from-cyan-500 to-blue-500  text-white tracking-wider duration-300 group-hover:translate-x-5 font-semibold cursor-pointer px-10 py-2">
                           QUICKVIEW
                         </button>
                     </div>

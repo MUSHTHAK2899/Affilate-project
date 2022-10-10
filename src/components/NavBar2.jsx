@@ -15,7 +15,7 @@ const NavBar2 = () => {
       <nav
       className={
         colorChange
-          ? "bg-[#08ce] text-white scroll-smooth w-full  fixed top-0 z-[2]"
+          ? "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white scroll-smooth w-full  fixed top-0 z-[2]"
           : "  "
       }
       >
