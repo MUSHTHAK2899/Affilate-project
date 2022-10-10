@@ -6,7 +6,7 @@ const Menu = () => {
     <>
     <nav className='flex md:hidden absolute  top-[150px]'>
         <div className='w-full h-full bg-white z-20 pl-10 pr-20 p-5 '>
-          <div className='flex justify-center gap-32'>
+          <div className='flex justify-center gap-44'>
                 <button className='font-bold text-sky-500 tracking-wider'>Menu</button>
                 <button className='font-bold text-sky-500 tracking-wider'>
                     Account

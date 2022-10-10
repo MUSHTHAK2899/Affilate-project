@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className=" bg-gradient-to-r from-[#121214] to-slate-800  max-w-full max-h-full] ">
-        <h1 className="text-white bg-[#08c] w-32 text-center font-mono rounded-t-md -translate-y-4 ml-7 p-2">
+        <h1 className="text-white bg-[#08c] whitespace-nowrap w-32 text-center font-mono rounded-t-md -translate-y-4 ml-7 p-2">
           Get in touch
         </h1>
         <div className="p-7 text-white border-b border-gray-100/20 lg:flex lg:gap-[70px] xl:gap-38">

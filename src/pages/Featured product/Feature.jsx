@@ -49,7 +49,7 @@ const Feature = () => {
                     <div className="group">
                       <div className="group-hover:shadow-xl">
                         <img className="" src={items.image} alt="" />
-                        <div className="absolute top-3 group-hover:shadow-xl  right-3 text-transparent cursor-pointer group-hover:text-black group-hover:bg-white rounded-full w-9 h-9 flex items-center justify-center group-hover:-translate-x-2 duration-300">
+                        <div className="absolute top-3 group-hover:shadow-xl  right-3 text-black bg-white cursor-pointer md:group-hover:text-black md:group-hover:bg-white rounded-full w-9 h-9 flex items-center justify-center group-hover:-translate-x-2 duration-300">
                           {" "}
                           <BsHandbag size={20} />
                         </div>
